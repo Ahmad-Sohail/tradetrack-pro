@@ -54,36 +54,36 @@ button {
    switches the whole UI between the two.
 ========================= */
 :root {
-  --primary: #10b981;
-  --primary-foreground: #0f172a;
+  --primary: #047857;
+  --primary-foreground: #f5f6f3;
 
   /* Main page */
-  --background: #fafbfa;
-  --foreground: #18181b;
-  --secondary: #52525b;
+  --background: #eceeea;
+  --foreground: #1b2430;
+  --secondary: #46505c;
 
   /* Subtle backgrounds */
-  --muted: #f1f3f1;
-  --muted-foreground: #71717a;
+  --muted: #e2e6e1;
+  --muted-foreground: #566070;
 
-  --accent: #e7f8f1;
+  --accent: #d9eee4;
   --accent-foreground: #065f46;
 
   /* Borders and inputs */
-  --border: #e4e7e4;
-  --input: #f5f6f5;
-  --ring: #10b981;
+  --border: #cfd6d0;
+  --input: #f0f2ee;
+  --ring: #047857;
 
   /* Feedback */
-  --destructive: #dc2626;
+  --destructive: #b91c1c;
   --destructive-foreground: #ffffff;
 
   /* Cards and elevated surfaces */
-  --card: #ffffff;
-  --card-foreground: #18181b;
+  --card: #f5f6f3;
+  --card-foreground: #1b2430;
 
-  --popover: #ffffff;
-  --popover-foreground: #18181b;
+  --popover: #f5f6f3;
+  --popover-foreground: #1b2430;
 
   /* Status colors */
   --success: #15803d;
