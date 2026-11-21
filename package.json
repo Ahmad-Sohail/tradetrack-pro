@@ -1,0 +1,31 @@
+{
+  "name": "tradetrack-pro",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx serve out",
+    "install:all": "npm install && npm --prefix server install",
+    "dev:server": "npm --prefix server run dev",
+    "seed": "npm --prefix server run seed",
+    "dev:webpack": "next dev --webpack",
+    "build:webpack": "next build --webpack"
+  },
+  "dependencies": {
+    "@neuctra/ui": "^1.0.18",
+    "@tailwindcss/postcss": "^4.3.5",
+    "framer-motion": "^14.14.0",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.9",
+    "lucide-react": "^1.73.0",
+    "next": "^16.4.6",
+    "papaparse": "^5.7.1",
+    "postcss": "^8.5.33",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "recharts": "^3.10.1",
+    "socket.io-client": "^4.8.4",
+    "tailwindcss": "^4.3.5"
+  }
+}
